@@ -1,4 +1,43 @@
-#profile {
+#name {
+  background: #4aaaa5;
+}
+
+.nav{
+  width: 960px;
+}
+
+
+#links{
+  color: red;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.about {
+  margin-top: 20px;
+  background: #ffffff;
+  width: 960px;
+}
+
+body {
+  background-image: url(../images/circuit/circuit/circuit.png);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: #666666;
+  height: 70px;
+  margin-top: 5%;
+  color:  #ffffff;
+}
+
+  /* #profile {
   height: 132px;
   width: 175px;
   float: left;
@@ -112,7 +151,6 @@ footer p {
   margin-top: 40px;
   padding-left: 30px;
   padding-bottom: 20px;
-  /* padding-right: 30px; */
 }
 
 #portfolioContainer {
@@ -120,16 +158,12 @@ footer p {
 }
 
 #contact {
-  /* border-radius: 5px;
-  padding: 20px; */
   width: 930px;
 }
 
 .card {
-  /* background-image: url("https://picsum.photos/180/225"); */
   height: 180px;
   width: 225px;
-  /* background: #666666; */
   margin: 10px;
   display: inline-block;
   position: relative;
@@ -147,12 +181,8 @@ footer p {
 input[type=text], select, textarea {
   width: 93%;
   padding: 12px;
-  /* border: 1px solid #ccc; */
-  /* border-radius: 4px; */
-  /* box-sizing: border-box; */
   margin-top: 6px;
   margin-bottom: 16px;
-  /* resize: vertical; */
 }
 
 input[type=submit] {
@@ -160,8 +190,6 @@ input[type=submit] {
   color: #ffffff;
   padding: 12px 20px;
   border: none;
-  /* border-radius: 4px; */
-  /* cursor: pointer; */
 }
 
 label {
@@ -170,4 +198,4 @@ label {
 
 form {
   padding-left: 1%;
-}
+} */
