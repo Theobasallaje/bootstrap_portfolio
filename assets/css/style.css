@@ -8,7 +8,8 @@
 
 
 #links{
-  color: red;
+  position: absolute;
+  right:0px;
 }
 
 img {
@@ -16,7 +17,7 @@ img {
   width: 200px;
 }
 
-.about {
+.about, .contact, .portfolio {
   margin-top: 20px;
   background: #ffffff;
   width: 960px;
