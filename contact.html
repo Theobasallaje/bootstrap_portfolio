@@ -1,56 +1,64 @@
 <!DOCTYPE html>
-    <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="stylesheet" href="./assets/css/style.css">
-    </head>
-    <body>
-        <div id="navContainer">
-            <div class="topnav">
-               <div id="name">
-                <div id="namespace"></div>
-                <span id="h1">Theo Basallaje</span>
-            </div>
-            <div id="nav">
-                <a href="index.html">About</a>
-                <span id="portLink"><a href="portfolio.html">Portfolio</a></span>
-                <a href="contact.html">Contact</a>
-            </div>   
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container nav">
+            <a class="navbar-brand" id="name" href="index.html">Theo Basallaje</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav" id="links">
+                    <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                </div>
             </div>
         </div>
-        <div id="contactContainer">
+        </nav>
+
+        <div class="container contact">
             <div id="contact">
                 <h1>Contact</h1>
                 <form action="/action_page.php">
                     <div>
-                    <label for="cname">Name</label>
+                        <label for="cname">Name</label>
                     </div>
                     <div id="cname">
-                    <input type="text" name="contactname" placeholder="John Smith">
+                        <input type="text" name="contactname" placeholder="John Smith">
                     </div>
 
                     <div>
-                    <label for="email">Email</label>
+                        <label for="email">Email</label>
                     </div>
                     <div id="email">
-                    <input type="text" name="email" placeholder="example@gmail.com">
-                    </div>   
+                        <input type="text" name="email" placeholder="example@gmail.com">
+                    </div>
 
                     <div>
-                    <label for="message">Message</label>
+                        <label for="message">Message</label>
                     </div>
                     <div id="message">
-                    <textarea name="message" placeholder="" style="height:200px; width:93%"></textarea>
+                        <textarea name="message" placeholder="" style="height:200px; width:93%"></textarea>
                     </div>
 
                     <input type="submit" value="Submit">
-                  </form>    
-            </div>    
+                </form>
+            </div>
         </div>
-    </body>
-    
-    <div id="blue">
-    </div>
-    <footer>
-        <p>Copyright &#169;</p>
-    </footer>
+</body>
+
+<!-- <div id="blue">
+</div> -->
+<footer>
+    <p>Copyright &#169;</p>
+</footer>
+
 </html>

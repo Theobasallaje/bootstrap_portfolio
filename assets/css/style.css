@@ -28,7 +28,7 @@ p {
   padding-left: 2%;
 }
 
-.about {
+.about, .contact, .portfolio {
   margin-top: 20px;
   background: #ffffff;
   width: 960px;
