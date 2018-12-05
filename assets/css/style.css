@@ -1,19 +1,31 @@
+html, body {
+  height: 100%;
+}
+
 #name {
   background: #4aaaa5;
+  color: #ffffff;
+  /* height: 60%; */
+}
+
+.navbar {
+  height: 10%;
 }
 
 .nav{
   width: 960px;
 }
 
-
-#links{
-  color: red;
-}
-
 img {
   height: 200px;
   width: 200px;
+  float: left;
+}
+
+p {
+  width: 760px;
+  margin-right: 0px;
+  padding-left: 2%;
 }
 
 .about {
