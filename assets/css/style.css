@@ -5,21 +5,29 @@ html, body {
 #name {
   background: #4aaaa5;
   color: #ffffff;
-  /* height: 60%; */
+  height: 100%;
+  width: 20%;
+  text-align: center;
+  /* border: 2px solid red; */
 }
 
 .navbar {
   height: 10%;
+  padding: 0px;
+  /* border: 2px solid blue; */
 }
 
 .nav{
   width: 960px;
+  /* border: 2px solid green; */
+  height: 100%;
 }
 
 img {
   height: 200px;
   width: 200px;
   float: left;
+  margin-right: 20px;
 }
 
 p {
