@@ -45,13 +45,23 @@ html, body {
   height: 18px;
 }
 
-.collapse .show {
+/* .collapse .show {
   display: block;
-}
+} */
 
 .show {
   background: #ffffff;
   color: #777777;
+  display: block;
+}
+
+.navbar-collapse {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #portLink {
@@ -92,8 +102,10 @@ p {
 }
 
 .col-md-3 {
+  /* height: 100%!important; */
   margin-right: 35px;
   padding: 0px;
+  background-repeat: no-repeat;
 }
 
 .label {
