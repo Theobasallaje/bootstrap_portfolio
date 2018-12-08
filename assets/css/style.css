@@ -4,7 +4,7 @@ html, body {
 }
 
 #name {
-  width: 30%;
+  width: 35%;
   height: 100%;
   background: #4aaaa5;
   color: #ffffff;
@@ -43,6 +43,15 @@ html, body {
   text-decoration: none;
   font-size: 17px;
   height: 18px;
+}
+
+.collapse .show {
+  display: block;
+}
+
+.show {
+  background: #ffffff;
+  color: #777777;
 }
 
 #portLink {
@@ -88,7 +97,7 @@ p {
 }
 
 .label {
-  width: 225px;
+  width: 100%;
   background-color: #4aaaa5;
   color:#ffffff;
   position: absolute;
@@ -97,6 +106,17 @@ p {
 }
 
 .container {
+  padding-bottom: 20px;
+}
+
+/* #portfolioContainer, #aboutContainer, #contactContainer {
+  margin: 0 auto;
+  width: 960px;
+} */
+
+#portfolio, #about, #contact {
+  background-color: #ffffff;
+  padding-left: 30px;
   padding-bottom: 20px;
 }
 
